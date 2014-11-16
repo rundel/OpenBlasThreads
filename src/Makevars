@@ -1,2 +1,2 @@
-#PKG_LIBS=-L/opt/openblas/lib -lopenblas
+PKG_LIBS=-lopenblas
 
