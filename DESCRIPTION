@@ -12,5 +12,3 @@ Suggests:
 Description: Sets "set_openblas_num_threads" for linux systems with OpenBlas correctly installed. This function is currently only a dummy for Windows so no Windows capabilities are available as of yet. Please note: this assumes OpenBlas is installed in opt/openblas, as per the library recommendations. Otherwise alter the path given in Makevars.
 License: GPL (>= 2)
 URL: http://www.r-project.org
-Collate: 'openblas.set.num.threads.R'
-
