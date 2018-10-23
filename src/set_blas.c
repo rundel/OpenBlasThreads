@@ -5,7 +5,7 @@ extern void openblas_set_num_thread(int);
 extern int  openblas_get_num_thread(void);
 
 SEXP obt_set_num_threads(SEXP n) {
-	openblas_set_num_threads(INTEGER(n));
+	openblas_set_num_threads(asInteger(n));
   return R_NilValue;
 }
 
