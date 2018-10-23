@@ -22,10 +22,10 @@ mat = matrix(seq_len(5e7),5e4,1e3)
 set_num_threads(1)
 system.time( crossprod(mat,mat) )
 
-openblas.set.num.threads(2)
+set_num_threads(2)
 system.time( crossprod(mat,mat) )
 
-openblas.set.num.threads(4)
+set_num_threads(4)
 system.time( crossprod(mat,mat) )
 
 }
