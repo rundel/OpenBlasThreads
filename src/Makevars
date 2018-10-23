@@ -1,2 +1,2 @@
 PKG_LIBS=-lopenblas
-
+#PKG_LIBS=-L/usr/local/opt/openblas/lib -lopenblas
